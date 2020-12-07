@@ -4,9 +4,9 @@ export const MainWrapper = styled.div`
   box-sizing: border-box;
   width: 100%;
   height: 100%;
-  background: fixed rgba(28, 28, 28, 0.2) url(/img/header-bckg-1440.jpg)
-    no-repeat center center;
-  background-size: cover;
+  background: local rgba(28, 28, 28, 0.2) url(/img/header-bckg-1440.jpg)
+    no-repeat;
+  background-size: 100%;
 `;
 
 export const TopPanelWrapper = styled.div`
@@ -120,5 +120,5 @@ export const TitleLink = styled.a`
   width: 250px;
   height: 30px;
   background-color: white;
-  border-radius: 15px;
+  border-radius: 8px;
 `;

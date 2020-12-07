@@ -6,6 +6,7 @@ import {
   TopPanelLink,
   TopPanelRightContainer,
   RightContainerLink,
+  MenuButton,
 } from "./style";
 
 const TopPanel = () => {
@@ -20,6 +21,7 @@ const TopPanel = () => {
       <TopPanelRightContainer>
         <RightContainerLink className="">Сдайте жильё</RightContainerLink>
         <RightContainerLink className="">О</RightContainerLink>
+        <MenuButton></MenuButton>
       </TopPanelRightContainer>
     </TopPanelWrapper>
   );

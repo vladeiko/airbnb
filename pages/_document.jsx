@@ -11,6 +11,7 @@ export default class MyDocument extends Document {
       <html>
         <Head>
           <title>Airbnb</title>
+          <link rel="stylesheet" href="./css/reset.css" />
         </Head>
         <body>
           <Main />

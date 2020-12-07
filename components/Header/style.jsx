@@ -5,8 +5,8 @@ export const MainWrapper = styled.div`
   width: 100%;
   height: 100%;
   background: fixed rgba(28, 28, 28, 0.2) url(/img/header-bckg-1440.jpg)
-    no-repeat;
-  background-size: 100%;
+    no-repeat center center;
+  background-size: cover;
 `;
 
 export const TopPanelWrapper = styled.div`
@@ -95,4 +95,30 @@ export const FindBarInput = styled.input`
   padding: 22px 0;
   width: 780px;
   border-radius: 30px;
+`;
+
+export const HeaderTitleWrapper = styled.div`
+  box-sizing: border-box;
+  padding: 200px 0 280px 160px;
+  height: 100%;
+  max-height: 811px;
+`;
+
+export const HeaderTitleText = styled.div`
+  color: white;
+  font-size: 58px;
+  font-weight: bold;
+  margin: 0 0 30px 0;
+  width: 400px;
+`;
+
+export const TitleLink = styled.a`
+  text-decoration: none;
+  box-sizing: border-box;
+  padding: 5px 15px;
+  font-size: 18px;
+  width: 250px;
+  height: 30px;
+  background-color: white;
+  border-radius: 15px;
 `;

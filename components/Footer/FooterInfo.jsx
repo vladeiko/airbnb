@@ -7,13 +7,13 @@ const FooterInfo = () => {
       <P>© 2020 Airbnb, Inc. All rights reserved</P>
       <Ul style={{ display: "flex" }}>
         <Li>
-          <Link href="#">Конфиденциальность</Link>
+          <Link href="#">· Конфиденциальность</Link>
         </Li>
         <Li>
-          <Link href="#">Условия</Link>
+          <Link href="#">· Условия</Link>
         </Li>
         <Li>
-          <Link href="#">Карта сайта</Link>
+          <Link href="#">· Карта сайта</Link>
         </Li>
       </Ul>
     </FooterInfoWrapper>

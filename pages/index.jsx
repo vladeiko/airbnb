@@ -1,6 +1,6 @@
 import Header from "../components/Header/index";
 import Places from "../components/Places/index";
-import TypesOfHousings from "../components/TypesOfHousings/index";
+import CardsLinks from "../components/CardsLinks/index";
 import OnlineImpressions from "../components/OnlineImpressions/index";
 
 export default function App() {
@@ -8,8 +8,9 @@ export default function App() {
     <div>
       <Header />
       <Places />
-      <TypesOfHousings />
+      <CardsLinks />
       <OnlineImpressions />
+      <CardsLinks />
     </div>
   );
 }

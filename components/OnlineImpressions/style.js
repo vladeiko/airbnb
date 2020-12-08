@@ -4,6 +4,7 @@ import { device } from "../device";
 export const MainWrapper = styled.div`
   background-color: black;
   display: flex;
+  height: 100%;
   flex-direction: column;
   padding: 60px 150px;
   box-sizing: border-box;
@@ -47,6 +48,7 @@ export const TopBarLink = styled.a`
 export const CardGrid = styled.div`
   box-sizing: border-box;
   display: flex;
+  height: 100%;
 `;
 
 export const GridPart1 = styled.div``;

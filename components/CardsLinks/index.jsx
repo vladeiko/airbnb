@@ -2,7 +2,7 @@ import React from "react";
 import { MainWrapper, Title, Grid } from "./style";
 import GridElement from "./GridElement";
 
-const TypesOfHousings = () => {
+const CardsLinks = () => {
   return (
     <MainWrapper>
       <Title>Живите где угодно</Title>
@@ -16,4 +16,4 @@ const TypesOfHousings = () => {
   );
 };
 
-export default TypesOfHousings;
+export default CardsLinks;

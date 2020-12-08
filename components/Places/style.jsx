@@ -25,10 +25,10 @@ export const PlacePicture = styled.img`
 export const PlaceTitle = styled.div`
   font-size: 18px;
   font-weight: bold;
-  padding: 0 5px;
+  padding: 4px 5px 4px 10px;
 `;
 
 export const PlaceTimeTo = styled.div`
-  padding: 0 5px;
+  padding: 4px 5px 4px 10px;
   color: rgb(40, 40, 40);
 `;

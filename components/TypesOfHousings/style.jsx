@@ -4,7 +4,7 @@ export const MainWrapper = styled.div`
   margin: 80px 0 0 0;
 `;
 
-export const Title = styled.div`
+export const Title = styled.h2`
   font-weight: bold;
   font-size: 32px;
   margin: 0 160px;

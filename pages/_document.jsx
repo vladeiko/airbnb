@@ -1,4 +1,4 @@
-import Document, { Head, Main, NextScript } from "next/document";
+import Document, { Head, Main, NextScript, Html } from "next/document";
 
 export default class MyDocument extends Document {
   static getInitialProps({ renderPage }) {
@@ -8,7 +8,7 @@ export default class MyDocument extends Document {
 
   render() {
     return (
-      <html>
+      <Html>
         <Head>
           <title>Airbnb</title>
           <link rel="stylesheet" href="./css/reset.css" />
@@ -17,7 +17,7 @@ export default class MyDocument extends Document {
           <Main />
           <NextScript />
         </body>
-      </html>
+      </Html>
     );
   }
 }

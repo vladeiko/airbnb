@@ -1,13 +1,13 @@
 import Header from "../components/Header/index";
 import Places from "../components/Places/index";
-import Types from "../components/Types/index";
+import TypesOfHousings from "../components/TypesOfHousings/index";
 
 export default function App() {
   return (
     <div>
       <Header />
       <Places />
-      <Types />
+      <TypesOfHousings />
     </div>
   );
 }

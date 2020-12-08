@@ -1,8 +1,8 @@
 import React from "react";
 import { MainWrapper } from "./style";
 
-const Types = () => {
+const TypesOfHousings = () => {
   return <MainWrapper></MainWrapper>;
 };
 
-export default Types;
+export default TypesOfHousings;

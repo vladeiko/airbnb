@@ -1,12 +1,41 @@
 import styled from "styled-components";
+import { device } from "../device";
 
 export const MainWrapper = styled.div`
   box-sizing: border-box;
-  width: 100%;
-  height: 811px;
   background: local rgba(28, 28, 28, 0.2) url(/img/header-bckg-1440.jpg)
     no-repeat;
   background-size: 100%;
+  width: 100%;
+  height: 100%;
+
+  @media ${device.desktop} {
+    max-height: 811px;
+  }
+
+  @media ${device.laptopL} {
+    max-height: 600px;
+  }
+
+  @media ${device.laptop} {
+    max-height: 578px;
+  }
+
+  @media ${device.tablet} {
+    max-height: 430px;
+  }
+
+  @media ${device.mobileL} {
+    max-height: 430px;
+  }
+
+  @media ${device.mobileM} {
+    max-height: 430px;
+  }
+
+  @media ${device.mobileS} {
+    max-height: 430px;
+  }
 `;
 
 export const TopPanelWrapper = styled.div`
@@ -37,6 +66,10 @@ export const TopPanelLinks = styled.div`
   padding: 0 0 0 140px;
   display: flex;
   align-items: center;
+
+  @media ${device.tablet} {
+    padding: 0 0 0 60px;
+  }
 `;
 
 export const TopPanelLink = styled.a`
@@ -53,6 +86,10 @@ export const TopPanelLink = styled.a`
 
   &:focus {
     border-bottom: 1px solid white;
+  }
+
+  @media ${device.tablet} {
+    padding: 0 8px 0 8px;
   }
 `;
 
@@ -93,23 +130,56 @@ export const FindBarContainer = styled.div`
 
 export const FindBarInput = styled.input`
   padding: 22px 0;
-  width: 780px;
+  width: 100%;
+  max-width: 780px;
   border-radius: 30px;
+
+  @media ${device.tablet} {
+    max-width: 420px;
+  }
 `;
 
 export const HeaderTitleWrapper = styled.div`
   box-sizing: border-box;
-  padding: 200px 0 280px 160px;
   height: 100%;
   max-height: 811px;
+
+  @media ${device.desktop} {
+    padding: 100px 0 180px 60px;
+    padding: 200px 0 280px 160px;
+  }
+
+  @media ${device.laptopL} {
+    padding: 100px 0 180px 60px;
+  }
+
+  @media ${device.laptop} {
+    padding: 50px 0 60px 30px;
+  }
+
+  @media ${device.tablet} {
+  }
+
+  @media ${device.mobileL} {
+  }
+
+  @media ${device.mobileM} {
+  }
+
+  @media ${device.mobileS} {
+  }
 `;
 
-export const HeaderTitleText = styled.div`
+export const HeaderTitleText = styled.h1`
   color: white;
   font-size: 58px;
   font-weight: bold;
   margin: 0 0 30px 0;
   width: 400px;
+
+  @media ${device.laptop} {
+    font-size: 46px;
+  }
 `;
 
 export const TitleLink = styled.a`
@@ -121,4 +191,8 @@ export const TitleLink = styled.a`
   height: 30px;
   background-color: white;
   border-radius: 8px;
+
+  @media ${device.laptop} {
+    font-size: 16px;
+  }
 `;

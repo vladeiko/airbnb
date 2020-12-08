@@ -1,12 +1,20 @@
 import styled from "styled-components";
+import { device } from "../device";
 
 export const MainWrapper = styled.div`
   margin: 50px 40px;
   box-sizing: border-box;
   display: flex;
-  justify-content: cennter;
   flex-wrap: wrap;
   align-content: center;
+
+  @media ${device.laptop} {
+    justify-content: center;
+  }
+
+  @media ${device.tablet} {
+    justify-content: center;
+  }
 `;
 
 export const PlaceWrapper = styled.div`
@@ -14,6 +22,14 @@ export const PlaceWrapper = styled.div`
   display: flex;
   align-items: center;
   padding: 10px 120px;
+
+  @media ${device.laptop} {
+    padding: 5px 60px;
+  }
+
+  @media ${device.tablet} {
+    padding: 5px 60px;
+  }
 `;
 
 export const PlacePicture = styled.img`

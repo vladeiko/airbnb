@@ -5,7 +5,7 @@ import { HeaderTitleWrapper, HeaderTitleText, TitleLink } from "./style";
 const HeaderTitle = () => {
   return (
     <HeaderTitleWrapper>
-      <HeaderTitleText>Удивитльное рядом</HeaderTitleText>
+      <HeaderTitleText>Удивиетльное рядом</HeaderTitleText>
       <TitleLink href="#">Найдите жильё поблизости</TitleLink>
     </HeaderTitleWrapper>
   );

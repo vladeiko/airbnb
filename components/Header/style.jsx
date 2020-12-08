@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const MainWrapper = styled.div`
   box-sizing: border-box;
   width: 100%;
-  height: 100%;
+  height: 811px;
   background: local rgba(28, 28, 28, 0.2) url(/img/header-bckg-1440.jpg)
     no-repeat;
   background-size: 100%;
